@@ -184,8 +184,21 @@ main {
   bottom: 2px;
 }
 
+.carousel-item img {
+  filter: blur(2px) grayscale(100%) brightness(40%);
+  border-radius: 1%;
+}
+
+.carousel:hover .carousel-item img {
+  filter: brightness(20%);
+}
+
 /* Id elements */
 
 #super {
   text-decoration: underline;
+}
+
+#projects {
+background-color: #eaf6f6;
 }
