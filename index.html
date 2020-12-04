@@ -8,7 +8,7 @@
     />
     <title>Narotam Singh</title>
     <link rel="stylesheet" href="css/styles.css" />
-    <link rel="shortcut icon" href="Images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="Images/n-logo.png" type="image/x-icon"/>
     <link
       href="https://fonts.googleapis.com/css?family=Lato|Merriweather|Montserrat|Roboto|Sacramento&display=swap"
       rel="stylesheet"
@@ -28,7 +28,7 @@
         class="navbar fixed-top navbar-expand-lg navbar-light bg-light text-white px-5"
       >
         <a class="navbar-brand" href="index.html"
-          ><img src="Images/favicon.ico" alt="logo"
+          ><img class="w-25" src="Images/n-logo.png" alt="logo"
         /></a>
         <button
           class="navbar-toggler"
@@ -71,8 +71,8 @@
       <div class="top-container overflow-hidden">
         <img class="top-cloud" src="Images/cloud.png" alt="cloud" />
         <div class="text-center mt-4 pt-5">
-          <h1>I'm Narotam.</h1>
-          <h2>A <span id="super">Super</span> Student.</h2>
+          <h1>I'm Narotam Singh</h1>
+          <p class="sub-title">Welcome!</p>
         </div>
         <img class="bottom-cloud" src="Images/cloud.png" alt="cloud" />
       </div>
@@ -86,7 +86,7 @@
             alt="Profile image"
           />
           <h2 class="text-center mt-3">Hello!</h2>
-          <p class="discription text-center">
+          <p class="w-75 mx-auto text-center">
             I am a Data Administrator at H&G IT Pvt. Ltd. and now I am learning
             coding just to upgrade myself and I ❤ Coffee.
           </p>
@@ -94,30 +94,34 @@
         <hr />
 
         <!-- Skills -->
-        <div class="skills pb-5" id="Skills">
-          <h2 class="h1 text-center mt-4">My Skills.</h2>
-          <div class="skill-row">
-            <img class="skill-img1" src="Images/typing.gif" alt="computer" />
+        <div class="container pt-4 pb-5" id="Skills">
+          <h2 class="h1 text-center mt-5">My Skills.</h2>
+          <div class="d-md-flex my-5 justify-content-around d-block text-center text-md-left">
+            <img class="m-2" src="Images/typing.gif" alt="computer" width="200px">
+            <div class="d-flex flex-column">
             <h3>Designing and Development</h3>
-            <p class="skill-para1">
+            <p class="">
               I started learning Photoshop, illustrator, After-Effects and much
               more after my schooling because I was good at Designing.
             </p>
           </div>
-          <div class="skill-row">
-            <img class="skill-img2" src="Images/code.gif" alt="code gif" />
+          </div>
+          <div class="d-md-flex my-5 flex-row-reverse justify-content-around d-block text-center text-md-left">
+            <img class="m-2" src="Images/code.gif" alt="code gif" width="200px">
+            <div class="d-flex flex-column">
             <h3>Learnt new languages</h3>
-            <p class="skill-para2">
+            <p class="">
               After designing, My biggest dream was to create my own website.
               so, Now I am learning HTML, CSS, Javascript and many more
               languages to become the best Front-end developer.
             </p>
+            </div>
           </div>
         </div>
         <hr />
 
         <!-- Projects -->
-       <section id="projects" class="container-fluid mx-auto pt-5 pb-2">
+  <section id="projects" class="container-fluid mx-auto pt-5 pb-2">
   <div>
     <div>
       <h2 class="h1 text-center mt-4">My Projects</h2>
@@ -229,7 +233,7 @@
         <div class="contact-me text-center" id="Contact">
           <h2>Get In Touch</h2>
           <h3>If you love learning as much as I do.</h3>
-          <p class="message">
+          <p class="mx-auto w-75">
             Love learning new languages or softwears? Let's talk about it! we
             can learn togather.
           </p>
@@ -239,7 +243,12 @@
     </main>
 
     <!-- footer -->
+    
     <div class="bottom-container text-center">
+      <div class="mb-4">
+        <a href="index.html"><img src="Images/n-logo.png" alt="Logo" width="70px"></a>
+      </div>
+
       <a
         class="footer-link text-white"
         href="https://www.linkedin.com/in/narotamji/"
@@ -258,7 +267,7 @@
         target="#"
         >Instagram</a
       >
-      <p class="pt-2 text-white">© 2020 All Rights Reserved @ Narotam Singh</p>
+      <p class="pt-2 text-white">© 2020 All Rights Reserved</p>
     </div>
 
     <script
